@@ -1,11 +1,14 @@
 .navbar {
-    grid-area: n;
-    background-color: burlywood;
+  grid-area: n;
+  padding: 20px;
+  background-color: burlywood;
 }
-.item{
-    color: white;
+.item {
+  color: white;
+  text-decoration: none;
 }
 
-.item.active{
-    color: gold;
+.active {
+  color: red;
+  text-decoration: none;
 }
